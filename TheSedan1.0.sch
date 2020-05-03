@@ -1944,35 +1944,35 @@ Text GLabel 9250 1200 1    50   Input ~ 0
 col13
 Text GLabel 9700 1200 1    50   Input ~ 0
 col14
-Text GLabel 2300 2050 2    50   Input ~ 0
+Text GLabel 900  2050 0    50   Input ~ 0
 col0
-Text GLabel 2300 2150 2    50   Input ~ 0
-col1
-Text GLabel 2300 2250 2    50   Input ~ 0
-col2
-Text GLabel 2300 2350 2    50   Input ~ 0
-col3
-Text GLabel 2300 2450 2    50   Input ~ 0
-col4
-Text GLabel 2300 2550 2    50   Input ~ 0
-col5
-Text GLabel 2300 2650 2    50   Input ~ 0
-col6
-Text GLabel 2300 2750 2    50   Input ~ 0
-col7
-Text GLabel 900  2750 0    50   Input ~ 0
-col8
-Text GLabel 900  2650 0    50   Input ~ 0
-col9
-Text GLabel 900  2550 0    50   Input ~ 0
-col10
-Text GLabel 900  2450 0    50   Input ~ 0
-col11
-Text GLabel 900  2350 0    50   Input ~ 0
-col12
-Text GLabel 900  2250 0    50   Input ~ 0
-col13
 Text GLabel 900  2150 0    50   Input ~ 0
+col1
+Text GLabel 900  2250 0    50   Input ~ 0
+col2
+Text GLabel 900  2350 0    50   Input ~ 0
+col3
+Text GLabel 900  2450 0    50   Input ~ 0
+col4
+Text GLabel 900  2550 0    50   Input ~ 0
+col5
+Text GLabel 900  2650 0    50   Input ~ 0
+col6
+Text GLabel 900  2750 0    50   Input ~ 0
+col7
+Text GLabel 1400 3150 3    50   Input ~ 0
+col8
+Text GLabel 1500 3150 3    50   Input ~ 0
+col9
+Text GLabel 1600 3150 3    50   Input ~ 0
+col10
+Text GLabel 1700 3150 3    50   Input ~ 0
+col11
+Text GLabel 1800 3150 3    50   Input ~ 0
+col12
+Text GLabel 2300 2750 2    50   Input ~ 0
+col13
+Text GLabel 2300 2650 2    50   Input ~ 0
 col14
 Text GLabel 3000 2600 0    50   Input ~ 0
 row1
@@ -1984,14 +1984,14 @@ Text GLabel 3000 3900 0    50   Input ~ 0
 row3
 Text GLabel 3000 4550 0    50   Input ~ 0
 row4
-Text GLabel 1500 3150 3    50   Input ~ 0
+Text GLabel 2300 2450 2    50   Input ~ 0
 row1
-Text GLabel 1400 3150 3    50   Input ~ 0
+Text GLabel 2300 2550 2    50   Input ~ 0
 row0
-Text GLabel 1600 3150 3    50   Input ~ 0
+Text GLabel 2300 2350 2    50   Input ~ 0
 row2
-Text GLabel 1700 3150 3    50   Input ~ 0
+Text GLabel 2300 2250 2    50   Input ~ 0
 row3
-Text GLabel 1800 3150 3    50   Input ~ 0
+Text GLabel 2300 2150 2    50   Input ~ 0
 row4
 $EndSCHEMATC
