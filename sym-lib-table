@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name keebio)(type Legacy)(uri "C:/Users/alexa/iCloudDrive/HomeShare/Clawsome Boards/GitHub/Downloaded Libraries/Keebio-Parts.pretty/keebio-components/keebio.lib")(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "C:/Users/alexa/iCloudDrive/HomeShare/Clawsome Boards/GitHub/Downloaded Libraries/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name promicro)(type Legacy)(uri "C:/Users/alexa/iCloudDrive/HomeShare/Clawsome Boards/GitHub/Downloaded Libraries/ProMicroKiCad/promicro_library/promicro.lib")(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "C:/Users/alexa/iCloudDrive/HomeShare/Clawsome Boards/GitHub/Downloaded Libraries/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+)
