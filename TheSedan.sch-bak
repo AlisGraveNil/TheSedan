@@ -1738,19 +1738,19 @@ Text GLabel 10550 900  1    50   Input ~ 0
 col13
 Text GLabel 11000 900  1    50   Input ~ 0
 col14
-Text GLabel 2550 2000 2    50   Input ~ 0
+Text GLabel 2550 3300 2    50   Input ~ 0
 col8
-Text GLabel 2550 1900 2    50   Input ~ 0
-col9
 Text GLabel 2550 1800 2    50   Input ~ 0
+col9
+Text GLabel 2550 1900 2    50   Input ~ 0
 col10
-Text GLabel 2550 1700 2    50   Input ~ 0
+Text GLabel 2550 2000 2    50   Input ~ 0
 col11
-Text GLabel 2550 1600 2    50   Input ~ 0
+Text GLabel 2550 2300 2    50   Input ~ 0
 col12
-Text GLabel 2550 1500 2    50   Input ~ 0
+Text GLabel 2550 2400 2    50   Input ~ 0
 col13
-Text GLabel 2550 1400 2    50   Input ~ 0
+Text GLabel 2550 4300 2    50   Input ~ 0
 col14
 Text GLabel 4300 2300 0    50   Input ~ 0
 row1
@@ -1762,15 +1762,15 @@ Text GLabel 4300 3600 0    50   Input ~ 0
 row3
 Text GLabel 4300 4250 0    50   Input ~ 0
 row4
-Text GLabel 2550 4200 2    50   Input ~ 0
-row1
-Text GLabel 2550 4300 2    50   Input ~ 0
-row0
 Text GLabel 2550 4100 2    50   Input ~ 0
-row2
+row1
+Text GLabel 2550 4200 2    50   Input ~ 0
+row0
 Text GLabel 2550 4000 2    50   Input ~ 0
-row3
+row2
 Text GLabel 2550 3900 2    50   Input ~ 0
+row3
+Text GLabel 2550 3800 2    50   Input ~ 0
 row4
 Wire Wire Line
 	10100 900  10100 1250
@@ -1961,21 +1961,21 @@ Wire Wire Line
 Connection ~ 11000 3200
 Wire Wire Line
 	11000 3200 11000 3850
-Text GLabel 2550 2100 2    50   Input ~ 0
+Text GLabel 2550 3200 2    50   Input ~ 0
 col7
-Text GLabel 2550 2900 2    50   Input ~ 0
-col6
-Text GLabel 2550 2300 2    50   Input ~ 0
-col5
-Text GLabel 2550 2400 2    50   Input ~ 0
-col4
 Text GLabel 2550 3000 2    50   Input ~ 0
-col3
-Text GLabel 2550 2600 2    50   Input ~ 0
-col2
-Text GLabel 2550 2700 2    50   Input ~ 0
-col1
+col6
+Text GLabel 2550 3100 2    50   Input ~ 0
+col5
+Text GLabel 2550 2900 2    50   Input ~ 0
+col4
 Text GLabel 2550 2800 2    50   Input ~ 0
+col3
+Text GLabel 2550 2700 2    50   Input ~ 0
+col2
+Text GLabel 2550 2600 2    50   Input ~ 0
+col1
+Text GLabel 2550 2100 2    50   Input ~ 0
 col0
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-AU U2
@@ -2336,17 +2336,6 @@ Text GLabel 650  2400 0    50   Input ~ 0
 D+
 Text GLabel 650  2500 0    50   Input ~ 0
 D-
-$Comp
-L random-keyboard-parts:Molex-0548190589 USB1
-U 1 1 5EC9EE94
-P 3300 5950
-F 0 "USB1" V 3837 5917 60  0000 C CNN
-F 1 "Molex-0548190589" V 3731 5917 60  0000 C CNN
-F 2 "random-keyboard-parts:Molex-0548190589" H 3300 5950 60  0001 C CNN
-F 3 "" H 3300 5950 60  0001 C CNN
-	1    3300 5950
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3650 5950 2    50   Input ~ 0
 D+
 Wire Wire Line
@@ -2385,17 +2374,6 @@ Connection ~ 3900 5750
 Wire Wire Line
 	3900 5750 4050 5750
 $Comp
-L Device:Polyfuse_Small F1
-U 1 1 5ECDBA70
-P 4150 5750
-F 0 "F1" V 3945 5750 50  0000 C CNN
-F 1 "500mA" V 4036 5750 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 4200 5550 50  0001 L CNN
-F 3 "~" H 4150 5750 50  0001 C CNN
-	1    4150 5750
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+5V #PWR0113
 U 1 1 5ED01E32
 P 4400 5750
@@ -2408,4 +2386,26 @@ F 3 "" H 4400 5750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 5750 4400 5750
+$Comp
+L random-keyboard-parts:Molex-0548190589 USB1
+U 1 1 5EC9EE94
+P 3300 5950
+F 0 "USB1" V 3837 5917 60  0000 C CNN
+F 1 "Molex-0548190589" V 3731 5917 60  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 3300 5950 60  0001 C CNN
+F 3 "" H 3300 5950 60  0001 C CNN
+	1    3300 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5ECDBA70
+P 4150 5750
+F 0 "F1" V 3945 5750 50  0000 C CNN
+F 1 "500mA" V 4036 5750 50  0000 C CNN
+F 2 "Fuse:Fuse_1210_3225Metric" H 4200 5550 50  0001 L CNN
+F 3 "~" H 4150 5750 50  0001 C CNN
+	1    4150 5750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
