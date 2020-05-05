@@ -1738,19 +1738,19 @@ Text GLabel 10550 900  1    50   Input ~ 0
 col13
 Text GLabel 11000 900  1    50   Input ~ 0
 col14
-Text GLabel 2550 3300 2    50   Input ~ 0
-col8
-Text GLabel 2550 1800 2    50   Input ~ 0
-col9
-Text GLabel 2550 1900 2    50   Input ~ 0
-col10
 Text GLabel 2550 2000 2    50   Input ~ 0
-col11
+col8
 Text GLabel 2550 2300 2    50   Input ~ 0
-col12
+col9
 Text GLabel 2550 2400 2    50   Input ~ 0
-col13
+col10
 Text GLabel 2550 4300 2    50   Input ~ 0
+col11
+Text GLabel 2550 4200 2    50   Input ~ 0
+col12
+Text GLabel 2550 4100 2    50   Input ~ 0
+col13
+Text GLabel 2550 4000 2    50   Input ~ 0
 col14
 Text GLabel 4300 2300 0    50   Input ~ 0
 row1
@@ -1762,13 +1762,13 @@ Text GLabel 4300 3600 0    50   Input ~ 0
 row3
 Text GLabel 4300 4250 0    50   Input ~ 0
 row4
-Text GLabel 2550 4100 2    50   Input ~ 0
+Text GLabel 2550 3000 2    50   Input ~ 0
 row1
-Text GLabel 2550 4200 2    50   Input ~ 0
+Text GLabel 2550 2900 2    50   Input ~ 0
 row0
-Text GLabel 2550 4000 2    50   Input ~ 0
+Text GLabel 2550 3100 2    50   Input ~ 0
 row2
-Text GLabel 2550 3900 2    50   Input ~ 0
+Text GLabel 2550 1800 2    50   Input ~ 0
 row3
 Text GLabel 2550 3800 2    50   Input ~ 0
 row4
@@ -1961,13 +1961,13 @@ Wire Wire Line
 Connection ~ 11000 3200
 Wire Wire Line
 	11000 3200 11000 3850
-Text GLabel 2550 3200 2    50   Input ~ 0
+Text GLabel 2550 1900 2    50   Input ~ 0
 col7
-Text GLabel 2550 3000 2    50   Input ~ 0
+Text GLabel 2550 3900 2    50   Input ~ 0
 col6
-Text GLabel 2550 3100 2    50   Input ~ 0
+Text GLabel 2550 3200 2    50   Input ~ 0
 col5
-Text GLabel 2550 2900 2    50   Input ~ 0
+Text GLabel 2550 3300 2    50   Input ~ 0
 col4
 Text GLabel 2550 2800 2    50   Input ~ 0
 col3

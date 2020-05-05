@@ -1738,19 +1738,19 @@ Text GLabel 10550 900  1    50   Input ~ 0
 col13
 Text GLabel 11000 900  1    50   Input ~ 0
 col14
-Text GLabel 2550 3300 2    50   Input ~ 0
-col8
-Text GLabel 2550 1800 2    50   Input ~ 0
-col9
-Text GLabel 2550 1900 2    50   Input ~ 0
-col10
 Text GLabel 2550 2000 2    50   Input ~ 0
-col11
+col8
 Text GLabel 2550 2300 2    50   Input ~ 0
-col12
+col9
 Text GLabel 2550 2400 2    50   Input ~ 0
-col13
+col10
 Text GLabel 2550 4300 2    50   Input ~ 0
+col11
+Text GLabel 2550 4200 2    50   Input ~ 0
+col12
+Text GLabel 2550 4100 2    50   Input ~ 0
+col13
+Text GLabel 2550 4000 2    50   Input ~ 0
 col14
 Text GLabel 4300 2300 0    50   Input ~ 0
 row1
@@ -1762,13 +1762,13 @@ Text GLabel 4300 3600 0    50   Input ~ 0
 row3
 Text GLabel 4300 4250 0    50   Input ~ 0
 row4
-Text GLabel 2550 4100 2    50   Input ~ 0
+Text GLabel 2550 3000 2    50   Input ~ 0
 row1
-Text GLabel 2550 4200 2    50   Input ~ 0
+Text GLabel 2550 3100 2    50   Input ~ 0
 row0
-Text GLabel 2550 4000 2    50   Input ~ 0
+Text GLabel 2550 2900 2    50   Input ~ 0
 row2
-Text GLabel 2550 3900 2    50   Input ~ 0
+Text GLabel 2550 1800 2    50   Input ~ 0
 row3
 Text GLabel 2550 3800 2    50   Input ~ 0
 row4
@@ -1961,13 +1961,13 @@ Wire Wire Line
 Connection ~ 11000 3200
 Wire Wire Line
 	11000 3200 11000 3850
-Text GLabel 2550 3200 2    50   Input ~ 0
+Text GLabel 2550 1900 2    50   Input ~ 0
 col7
-Text GLabel 2550 3000 2    50   Input ~ 0
+Text GLabel 2550 3900 2    50   Input ~ 0
 col6
-Text GLabel 2550 3100 2    50   Input ~ 0
+Text GLabel 2550 3200 2    50   Input ~ 0
 col5
-Text GLabel 2550 2900 2    50   Input ~ 0
+Text GLabel 2550 3300 2    50   Input ~ 0
 col4
 Text GLabel 2550 2800 2    50   Input ~ 0
 col3
@@ -2334,50 +2334,50 @@ Text GLabel 650  2400 0    50   Input ~ 0
 D+
 Text GLabel 650  2500 0    50   Input ~ 0
 D-
-Text GLabel 5900 6050 2    50   Input ~ 0
+Text GLabel 4450 5600 2    50   Input ~ 0
 D+
-Text GLabel 5900 5850 2    50   Input ~ 0
+Text GLabel 4450 5500 2    50   Input ~ 0
 D-
 $Comp
 L power:GND #PWR0111
 U 1 1 5ECB670F
-P 5300 6850
-F 0 "#PWR0111" H 5300 6600 50  0001 C CNN
-F 1 "GND" H 5305 6677 50  0000 C CNN
-F 2 "" H 5300 6850 50  0001 C CNN
-F 3 "" H 5300 6850 50  0001 C CNN
-	1    5300 6850
+P 4450 5800
+F 0 "#PWR0111" H 4450 5550 50  0001 C CNN
+F 1 "GND" H 4455 5627 50  0000 C CNN
+F 2 "" H 4450 5800 50  0001 C CNN
+F 3 "" H 4450 5800 50  0001 C CNN
+	1    4450 5800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 5350 6200 5350
+	4450 5400 4750 5400
 $Comp
 L power:VCC #PWR0112
 U 1 1 5ECCB698
-P 6200 5350
-F 0 "#PWR0112" H 6200 5200 50  0001 C CNN
-F 1 "VCC" H 6217 5523 50  0000 C CNN
-F 2 "" H 6200 5350 50  0001 C CNN
-F 3 "" H 6200 5350 50  0001 C CNN
-	1    6200 5350
+P 4750 5400
+F 0 "#PWR0112" H 4750 5250 50  0001 C CNN
+F 1 "VCC" H 4767 5573 50  0000 C CNN
+F 2 "" H 4750 5400 50  0001 C CNN
+F 3 "" H 4750 5400 50  0001 C CNN
+	1    4750 5400
 	1    0    0    -1  
 $EndComp
-Connection ~ 6200 5350
+Connection ~ 4750 5400
 Wire Wire Line
-	6200 5350 6350 5350
+	4750 5400 4900 5400
 $Comp
 L power:+5V #PWR0113
 U 1 1 5ED01E32
-P 6700 5350
-F 0 "#PWR0113" H 6700 5200 50  0001 C CNN
-F 1 "+5V" H 6715 5523 50  0000 C CNN
-F 2 "" H 6700 5350 50  0001 C CNN
-F 3 "" H 6700 5350 50  0001 C CNN
-	1    6700 5350
+P 5250 5400
+F 0 "#PWR0113" H 5250 5250 50  0001 C CNN
+F 1 "+5V" H 5265 5573 50  0000 C CNN
+F 2 "" H 5250 5400 50  0001 C CNN
+F 3 "" H 5250 5400 50  0001 C CNN
+	1    5250 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 5350 6700 5350
+	5100 5400 5250 5400
 $Comp
 L random-keyboard-parts:Molex-0548190589 USB1
 U 1 1 5EC9EE94
@@ -2394,23 +2394,12 @@ col0
 $Comp
 L Device:Polyfuse_Small F1
 U 1 1 5ECDBA70
-P 6450 5350
-F 0 "F1" V 6245 5350 50  0000 C CNN
-F 1 "500mA" V 6336 5350 50  0000 C CNN
-F 2 "Fuse:Fuse_1210_3225Metric" H 6500 5150 50  0001 L CNN
-F 3 "~" H 6450 5350 50  0001 C CNN
-	1    6450 5350
+P 5000 5400
+F 0 "F1" V 4795 5400 50  0000 C CNN
+F 1 "500mA" V 4886 5400 50  0000 C CNN
+F 2 "Fuse:Fuse_1210_3225Metric" H 5050 5200 50  0001 L CNN
+F 3 "~" H 5000 5400 50  0001 C CNN
+	1    5000 5400
 	0    1    1    0   
-$EndComp
-$Comp
-L Connector:USB_C_Plug_USB2.0 P1
-U 1 1 5EB117A7
-P 5300 5950
-F 0 "P1" H 5407 6817 50  0000 C CNN
-F 1 "USB_C_Plug_USB2.0" H 5407 6726 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Plug_Molex_105444" H 5450 5950 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5450 5950 50  0001 C CNN
-	1    5300 5950
-	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
